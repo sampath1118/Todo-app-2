@@ -1,13 +1,102 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* Todo2 app */
+.main_div {
+  width: 100%;
+  height: 100vh;
+  background-color: #6983aa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.center_div {
+  width: 25%;
+  height: 80vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+.h11 {
+  color: #fff;
+  background: transparent;
+  background-color: #8566aa;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.input1 {
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+}
+.btn1 {
+  color: #16a085 !important;
+}
+.icon1 {
+  width: 50px !important;
+  height: 60px !important;
+}
+.btn1:hover {
+  color: #6983aa !important;
+  cursor: pointer !important;
+  background: transparent !important;
+}
+ul {
+  margin-top: 30px;
+}
+ul li {
+  padding-left: 10px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  list-style-type: none;
+  color: #8566aa;
+  margin: 8px;
+}
+.list_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center !important;
+}
+.list_style i:hover {
+  color: crimson;
+  cursor: pointer;
+}
+.list_style .deleteIcon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  color: #fff;
+  background-color: #8566aa;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.list_style .deleteIcon:hover {
+  color: crimson;
+  background-color: #fff;
+  box-shadow: 5px 5px 15px -5px rgba(255, 0, 0, 0.5);
 }
